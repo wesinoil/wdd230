@@ -1,0 +1,44 @@
+.content {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h2 {
+    color: #2800ff;
+    font-size: 40px;
+  }
+  .home-headline {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    font-family: "Roboto+Mono", monospace;
+  
+  }
+  .headshot {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-width: 70%;
+  }
+  .topheadline {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-radius: 25px;
+    background: #73ad21;
+    padding: 20px;
+  
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Raleway", monospace;
+  }
+  .footer-section {
+    border-radius: 25px;
+    background: #73ad21;
+    padding: 20px;
+  
+    align-items: center;
+    justify-content: center;
+  }
+  header, body, footer {
+    max-width: 960px;
+  }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Wesley S. Verhoef</title>
+
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta name="description" content="A simple website, built with Glitch. Remix it to get your own." />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Wesley Verhoef" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta property="og:description" content="A simple website, built with Glitch. Remix it to get your own." />
+    <meta property="og:image"
+        content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147" />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <script src="/script.js" defer></script>
+</head>
+
+<body>
+    <div class="topheadline">
+        <h2 class="home-headline">Wesley S. Verhoef</h2>
+
+        <img class="headshot"
+            src="https://cdn.glitch.global/33ce342a-a6e9-453c-b0fb-3c056f61e7ba/headshot%20wes.jpeg?v=1641698549413"
+            class="illustration" alt="Editor illustration" title="Click the image!" />
+    </div>
+    <h2 class="">Wdd 230: Assignment Portal</h2>
+
+    <ul>
+        <li>Lesson 02: <a class="active" href="index.html">Title</a></li>
+        <li>Lesson 03: <a class="active" href="index.html">Title</a></li>
+        <li>Lesson 04: <a class="active" href="index.html">Title</a></li>
+        <li>Lesson 05: <a class="active" href="index.html">Title</a></li>
+        <li>Lesson 06: <a class="active" href="index.html">Title</a></li>
+        <li>Lesson 07: <a class="active" href="index.html">Title</a></li>
+        <li>Lesson 08: <a class="active" href="index.html">Title</a></li>
+        <li>Lesson 09: <a class="active" href="index.html">Title</a></li>
+        <li>Lesson 10: <a class="active" href="index.html">Title</a></li>
+        <li>Lesson 11: <a class="active" href="index.html">Title</a></li>
+        <li>Lesson 12: <a class="active" href="index.html">Title</a></li>
+    </ul>
+    <div class="content" role="main">
+        <p>Some lessons may need more than one activity/assignment link.</p>
+    </div>
+
+    <footer class="footer-section">
+        <p>&copy; 2021 .:|:. Wesley Verhoef .:|:. Florida</p>
+        <script>
+            var date = document.lastModified;
+            document.write("Last Updated: " + date);
+        </script>
+    </footer>
+</body>
+
+</html>
