@@ -1,0 +1,71 @@
+
+.content {
+    border: 5px solid #374C59;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 25px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+   }
+
+  h2 {
+    color: #2800ff;
+    font-size: 1rem;
+  }
+
+  .home-headline {
+   font-family: "Roboto+Mono", monospace;
+    }
+  
+  header {
+    background: #73ad21;
+    padding: 20px;
+    color: white;
+    font-family: "Raleway", monospace;
+    border: 5px solid #374C59;
+    width: 300px;
+    height: auto;
+  }
+
+  .footer-section {
+    background: #73ad21;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main {
+    display: block;
+    grid-template-columns: 325px;
+    width: 350px;
+    height: auto;
+  }
+
+  img {
+    width: 300px;
+    height: auto;
+  }
+  header, body, footer {
+    max-width: 960px;
+  }
+  @media only screen and (min-width: 25.5em) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .footer-section {
+        border-radius: 25px;
+         }
+         
+   
+    
+        }
+    
