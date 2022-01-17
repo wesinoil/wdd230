@@ -1,43 +1,23 @@
-@media only screen and (min-width: 35.5em) {
+@media only screen and (min-width: 45em) {
 
 main {
-    display: grid;
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: center;
+}
+      
+div {
+max-width: 350px;
 }
 
-.first_content {
-  border: 10px solid #73ad21;
-  padding: 20px;
-  border-radius: 20px;
-  margin: 10px;
-}
-  
-.second_content {
-  border: 10px solid #73ad21;
-  padding: 20px;
-  border-radius: 20px;
-  grid-column: 2/3;
-  grid-row: 1/2;
-  margin: 10px;
-}
-.third_content {
-  border: 10px solid #73ad21;
-  padding: 20px;
-  border-radius: 20px;
-  margin: 10px;
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
+
 .footer-section {
     border-radius: 25px;
 }
      
-body {
-    margin: auto;
-}
-
-main{
-    width: 700px;
-}
 
     }

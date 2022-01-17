@@ -1,39 +1,23 @@
 
- @media only screen and (min-width: 25.5em) {
+
 .footer-section {
   border-radius: 25px;
 } 
   
+   div{
+     max-width: 350px;
+     margin: 0 auto;
+     border: 10px solid #73ad21;
+  padding: 20px;
+  border-radius: 20px;
    }
-
 main {
-  display: grid;
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
 }
 
-.first_content {
-  border: 10px solid #73ad21;
-  padding: 20px;
-  border-radius: 20px;
-  margin: 10px;
-}
-  
-.second_content {
-  border: 10px solid #73ad21;
-  padding: 20px;
-  border-radius: 20px;
-  grid-column: 1/2;
-  grid-row: 2/3;
-  margin: 10px;
-}
-.third_content {
-  border: 10px solid #73ad21;
-  padding: 20px;
-  border-radius: 20px;
-  margin: 10px;
-  grid-column: 1/2;
-  grid-row: 3/4;
-}
+
   
 h1 {
   font-size: 1.5rem;
@@ -63,10 +47,6 @@ header {
 img {
   width: 100%;
   height: auto;
-}
-
-header, body, footer {
-  max-width: 960px;
 }
 
 .footer-section {
