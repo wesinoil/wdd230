@@ -6,16 +6,14 @@ h2 {
     font-size: 1.5rem;
 }
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
 }
-.footer-section {
-    border-radius: 25px;
-     }
-     
-     body {
-         margin: auto;
-     }
+  
+body {
+    margin: auto;
+}
 
-
+main{
+    width: 960px;
+}
     }

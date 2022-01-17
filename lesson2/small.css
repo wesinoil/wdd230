@@ -1,71 +1,78 @@
 
-.content {
-    border: 5px solid #374C59;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border-radius: 25px;
-  }
+ @media only screen and (min-width: 25.5em) {
+.footer-section {
+  border-radius: 25px;
+} 
   
-  h1 {
-    font-size: 1.5rem;
-    align-items: center;
-    justify-content: center;
    }
 
-  h2 {
-    color: #2800ff;
-    font-size: 1rem;
-  }
+main {
+  display: grid;
+  height: auto;
+}
 
-  .home-headline {
-   font-family: "Roboto+Mono", monospace;
-    }
+.first_content {
+  border: 10px solid #73ad21;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+}
   
-  header {
-    background: #73ad21;
-    padding: 20px;
-    color: white;
-    font-family: "Raleway", monospace;
-    border: 5px solid #374C59;
-    width: 300px;
-    height: auto;
-  }
+.second_content {
+  border: 10px solid #73ad21;
+  padding: 20px;
+  border-radius: 20px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin: 10px;
+}
+.third_content {
+  border: 10px solid #73ad21;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+  
+h1 {
+  font-size: 1.5rem;
+}
 
-  .footer-section {
-    background: #73ad21;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-  }
+h2 {
+  color: #2800ff;
+  font-size: 1rem;
+}
 
-  main {
-    display: block;
-    grid-template-columns: 325px;
-    width: 350px;
-    height: auto;
-  }
+.home-headline {
+  font-family: "Roboto+Mono", monospace;
+}
+  
+header {
+  background: #73ad21;
+  padding: 20px;
+  color: white;
+  font-family: "Raleway", monospace;
+  border: 5px solid #73ad21;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
 
-  img {
-    width: 300px;
-    height: auto;
-  }
-  header, body, footer {
-    max-width: 960px;
-  }
-  @media only screen and (min-width: 25.5em) {
-    h1 {
-        font-size: 2.5rem;
-    }
-    h2 {
-        font-size: 1.5rem;
-    }
-    
-    .footer-section {
-        border-radius: 25px;
-         }
-         
-   
-    
-        }
+img {
+  width: 100%;
+  height: auto;
+}
+
+header, body, footer {
+  max-width: 960px;
+}
+
+.footer-section {
+  background: #73ad21;
+  padding: 20px;
+  text-align: center;
+}
+ 
     

@@ -1,21 +1,43 @@
-@media only screen and (min-width: 32.5em) {
-h1 {
-    font-size: 2.5rem;
-}
-h2 {
-    font-size: 1.5rem;
-}
+@media only screen and (min-width: 35.5em) {
+
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+
+}
+
+.first_content {
+  border: 10px solid #73ad21;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+}
+  
+.second_content {
+  border: 10px solid #73ad21;
+  padding: 20px;
+  border-radius: 20px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin: 10px;
+}
+.third_content {
+  border: 10px solid #73ad21;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
 .footer-section {
     border-radius: 25px;
-     }
+}
      
-     body {
-         margin: auto;
-     }
+body {
+    margin: auto;
+}
 
+main{
+    width: 700px;
+}
 
     }
