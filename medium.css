@@ -12,7 +12,8 @@ h2 {
      
 .headshot {
     float: left;
-    border-radius: 0 10px 0 0;
+    border-radius: 5px;
+    left: 300px;
       }
 .topheadline {
     border-radius: 25px;
