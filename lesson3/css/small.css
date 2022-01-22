@@ -30,13 +30,19 @@
     font-family: 'Varela Round', sans-serif;
   }
 
+  .color_scheme_img {
+    max-width: 16rem;
+  }
+
+  .logo {
+    max-width: 4rem;
+  }
+
   .logo_pic {
     max-width: 6rem;
   }
 
- img {
-    max-width: 4rem;
- }
+  
     
   body {
     background: #f2e1d2;
