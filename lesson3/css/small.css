@@ -29,6 +29,11 @@
     font-size: 1rem;
     font-family: 'Varela Round', sans-serif;
   }
+
+  .logo_pic {
+    max-width: 6rem;
+  }
+
  img {
     max-width: 4rem;
  }
