@@ -20,7 +20,7 @@ display:flex;
 /* phone or baseline views **************************/
 header,
 footer {
-	background-color: #bed;
+	background-color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -30,25 +30,40 @@ footer {
 footer {
 	flex-flow: column;
 }
-header, 
+header {
+    padding: 20px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
 nav,
 main,
 footer {
 	max-width: 767px;
 	margin: 0 auto;
 }
-h1 {
-	font-size: 1.1rem;
-}
-h2 {
-	color: #536878;
-}
-
-nav {
-	background-color: #36454f;
-	text-align: center;
-	box-shadow: 0 2px 15px gray;
-}
+h1, h3 {
+    font-size: 1.5rem;
+    color: #d03e35;
+    font-family: 'Varela Round', sans-serif;
+  }
+  h2 {
+    color: #d03e35;
+    font-size: 1rem;
+  }
+  img {
+    width: 50%;
+    height: auto;
+  }
+.topnav {
+    background: #2f2f30;
+    padding: 1em;
+    border: 5px solid #2f2f30;
+    border-radius: 10px;
+  }
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -66,25 +81,33 @@ nav ul li a {
 		var(--d, 0) 10px no-repeat;
 	transition: 0.5s;
 }
-nav a:hover {
+.topnav a:hover {
 	/* 	background-color: #bbb;
 	color: #36454f; */
 	--d: 75%;
+	background: #d03e35;
+    color: black;
 }
-.active {
-	color: yellow;
-}
+.topnav a.active {
+    color: #f49807;
+    }
+  .topnav a:visited {
+    color: #f49807;
+  }
 main {
 	display: grid;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
 }
-main article {
-	margin: .5rem;
-	border: 1px solid #bbb;
-	padding: 1rem;
-	background-color: #eee;
-}
+.first_content {
+    max-width: 350px;
+    margin: 0 auto;
+    border: 10px solid #d03e35;
+    padding: 20px;
+    border-radius: 20px;
+    background: white;
+    text-align: left;
+      }
 
 main article ul {
 margin: 1rem 0 0 1rem;
@@ -98,3 +121,10 @@ footer {
 	height: 2rem;
 }
 
+.footer-section {
+    background: #975840;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+    font-family: 'Arvo', serif;
+  }
