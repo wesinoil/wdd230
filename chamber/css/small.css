@@ -1,130 +1,142 @@
-@charset "UTF-8"; /* not necessary */
-* 
+.topnav a:hover {
+  background: #d03e35;
+  color: black;
+}
 
-body {
-	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
+.topnav a.active {
+  color: #f49807;
+  }
+.topnav a:visited {
+  color: #f49807;
+}
+
+.topnav a:link {
+  color: #f49807;
 }
 .topnav {
-display:flex;
+  background: #2f2f30;
+  padding: 1em;
+  border: 5px solid #2f2f30;
+  border-radius: 10px;
+}
+
+.topnav a {
+  color: #d03e35;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.color_scheme_img {
+  max-width: 16rem;
+}
+
+.logo {
+  max-width: 4rem;
+}
+
+.logo_pic {
+  max-width: 6rem;
 }
 
 
+  
+body {
+  background: #f2e1d2;
+}
+
+h1, h3 {
+  font-size: 1.5rem;
+  color: #d03e35;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h2 {
+  color: #d03e35;
+  font-size: 1rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  
+  }
+img {
+  width: 100%;
+  height: auto;
+}
+header {
+  padding: 20px;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+.first_content {
+  margin: 0 auto;
+  border: 10px solid #d03e35;
+  padding: 20px;
+  border-radius: 20px;
+  background: white;
+  text-align: left;
+    }
+
+.footer-section {
+  background: #975840;
+  padding: 20px;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Arvo', serif;
+}
+nav {
+  margin: 0 auto;
+  max-width: 760px;
+  
+}
+.navigation {
+  list-style: none;
+  padding: 0;
+}
+.navigation li:first-child {
+  display: block;
+}
+.navigation li {
+  display: none;
+}
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  transition: 0.5s;
+  font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a.ham::before {
+  content: "🍔 ";
+}
+
+.navigation a:hover {
+  color: white;
+  background-color: black;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
 .responsive li {
-	display: block;
+  display: block;
 }
 
 .responsive a.ham::before {
-	content: "❌";
+  content: "❌ ";
 }
-/* phone or baseline views **************************/
-header,
-footer {
-	background-color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 20px;
+.ham {
+  display: block;
 }
-
-footer {
-	flex-flow: column;
-}
-header {
-    padding: 20px;
-    color: white;
-    font-family: 'Varela Round', sans-serif;
-    border-radius: 5px;
-    width: auto;
-    height: auto;
-    text-align: center;
-  }
-nav,
-main,
-footer {
-	max-width: 767px;
-	margin: 0 auto;
-}
-h1, h3 {
-    font-size: 1.5rem;
-    color: #d03e35;
-    font-family: 'Varela Round', sans-serif;
-  }
-  h2 {
-    color: #d03e35;
-    font-size: 1rem;
-  }
-  img {
-    width: 50%;
-    height: auto;
-  }
-.topnav {
-    background: #2f2f30;
-    padding: 1em;
-    border: 5px solid #2f2f30;
-    border-radius: 10px;
-  }
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-nav ul li a {
-	display: block;
-	color: #fff;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
-	background: linear-gradient(90deg, transparent, yellow, transparent) top /
-		var(--d, 0) 10px no-repeat;
-	transition: 0.5s;
-}
-.topnav a:hover {
-	/* 	background-color: #bbb;
-	color: #36454f; */
-	--d: 75%;
-	background: #d03e35;
-    color: black;
-}
-.topnav a.active {
-    color: #f49807;
-    }
-  .topnav a:visited {
-    color: #f49807;
-  }
-main {
-	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 0.8rem;
-}
-.first_content {
-    max-width: 350px;
-    margin: 0 auto;
-    border: 10px solid #d03e35;
-    padding: 20px;
-    border-radius: 20px;
-    background: white;
-    text-align: left;
-      }
-
-main article ul {
-margin: 1rem 0 0 1rem;
-}
-main picture {
-	display: none;
-	margin: 0.5rem;
-}
-
-footer {
-	height: 2rem;
-}
-
-.footer-section {
-    background: #975840;
-    padding: 20px;
-    text-align: center;
-    border-radius: 25px;
-    font-family: 'Arvo', serif;
-  }
