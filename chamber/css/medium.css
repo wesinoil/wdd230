@@ -1,5 +1,13 @@
 /* Media Query for medium+ views */
 @media only screen and (min-width: 32.5em) {
+	
+	main {
+		display: flex;
+		grid-template-columns: 1fr 1fr 1fr;
+	    grid-column: 1/4;
+	}
+}
+@media only screen and (min-width: 700px) {
 	.navigation {
 		display: flex;
 	}
@@ -12,10 +20,5 @@
 	}
 	.navigation li:first-child {
 		display: none;
-	}
-	main {
-		display: flex;
-		grid-template-columns: 1fr 1fr 1fr;
-	    grid-column: 1/4;
 	}
 }
