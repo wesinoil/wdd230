@@ -14,10 +14,8 @@
 		display: none;
 	}
 	main {
-		display: grid;
+		display: flex;
 		grid-template-columns: 1fr 1fr 1fr;
-	}
-	.first_content {
-		grid-column: 1/4;
+	    grid-column: 1/4;
 	}
 }
