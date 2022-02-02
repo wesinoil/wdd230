@@ -46,7 +46,7 @@
 
   
 body {
-  background: #f2e1d2;
+  background: white;
   }
 
 h1, h2, h3 {
@@ -74,10 +74,10 @@ header {
 }
 main div {
   
-  border: 10px solid #d03e35;
+  border: 5px solid #d03e35;
   padding: 20px;
   border-radius: 20px;
-  background: white;
+  background: #f2e1d2;
   text-align: left;
   margin: 1rem;
     }
@@ -89,7 +89,12 @@ main div {
   border-radius: 25px;
   font-family: 'Arvo', serif;
   color: #f49807;
-}
+  font-size: 15px;
+  color: #f49807;
+  -webkit-text-stroke: 0.5px white;
+  text-shadow: 2px 0px 0px rgba(0, 0, 0, 1);
+  }
+
 nav {
   margin: 0 auto;
   max-width: 760px;
