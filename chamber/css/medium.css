@@ -1,15 +1,20 @@
 /* Media Query for medium+ views */
-@media only screen and (min-width: 32.5em) {
+/*@media only screen and (min-width: 32.5em) {
 	
 	main {
 		display: flex;
 		grid-template-columns: 1fr 1fr 1fr;
 	    grid-column: 1/4;
 	}
-}
+}*/
 @media only screen and (min-width: 700px) {
 	.navigation {
 		display: flex;
+	}
+	main {
+		display: block;
+		grid-template-columns: 1fr 1fr 1fr;
+	    grid-column: 1/4;
 	}
 	.navigation li {
 		display: block; /* change state in small view */
@@ -21,4 +26,5 @@
 	.navigation li:first-child {
 		display: none;
 	}
+	
 }

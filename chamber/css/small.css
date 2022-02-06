@@ -21,6 +21,13 @@
   display: flex;
   align-items: center;
 }
+.footnav {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
 
 .topnav a {
   color: #d03e35;
@@ -43,7 +50,19 @@
   max-width: 6rem;
 }
 
+.hero_content { position: relative;}
+h1, h2, p {margin: 0;}
 
+.welcome_heading {
+	position: absolute;
+	top: 25px;
+	right: 50px;
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 1.5 rem;
+	box-shadow: 0 0 30px #333;
+	opacity: .9;
+}
   
 body {
   background: white;
@@ -142,4 +161,22 @@ nav {
 }
 .ham {
   display: block;
+}
+.social {
+  float: right;
+  }
+.face {
+  max-height: 40px;
+  max-width: 40px;
+  border: none;
+}
+.you {
+  max-height: 40px;
+  max-width: 40px;
+  border: none;
+}
+.insta {
+  max-height: 40px;
+  max-width: 40px;
+  border: none;
 }
