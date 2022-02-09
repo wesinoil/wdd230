@@ -6,7 +6,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=PT+Mono&family=Varela+Round&display=swap"
     rel="stylesheet">
-    <link rel="shortcut icon" href="/Dfavicon.ico">
+  <link rel="shortcut icon" href="/Dfavicon.ico">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="css/medium.css" />
   <link rel="stylesheet" href="css/large.css" />
   <script src="./js/javas.js" defer></script>
+
+
 </head>
 
 
@@ -41,13 +43,20 @@
           <li><a class="active" href="typography.html">About Us</a></li>
       </nav>
     </div>
+    <p><span id="date"></span></p>
+
+    <script>
+      var dt = new Date();
+      document.getElementById("date").innerHTML = dt.toLocaleString();
+    </script>
+
   </header>
   <br><br>
   <main>
     <div class="hero_content" role="main">
       <img src="./images/ReedyCreekFD-Disney.webp" alt="Reedy creek fire station image">
-    <section class="welcome_heading">
-      <h1>Welcome to Reedy Creek!</h1>
+      <section class="welcome_heading">
+        <h1>Welcome to Reedy Creek!</h1>
       </section>
     </div>
 
@@ -89,29 +98,26 @@
     <div class="footnav">
       <img class='logo' src="images/64px-D_letter_upon_three_circles_and_a_castle.svg 64px.png"
         alt="logo obtained from © Sémhur">
-    <p>&copy; 2022 .:|:. Wesley Verhoef .:|:. Flo-Rida</p>
-    <script>
-      var date = document.lastModified;
-      document.write("Last Updated: " + date);
-    </script>
-     <div class="social">
-      <a href="https://www.facebook.com/" target="_blank">
-        <img
-          class="face"
-          src="https://cdn.glitch.me/ca48489a-9c2d-4090-ae39-620c64fe4af8%2Ffacebook.png?v=1633655188092"
-          alt="Facebook icon"/></a>
-      <a href="https://www.youtube.com/" target="_blank">
-        <img
-          class="you"
-          src="https://cdn.glitch.me/ca48489a-9c2d-4090-ae39-620c64fe4af8%2Fyoutube.png?v=1633657989031"
-          alt="YouTube icon"/></a>
+      <p>&copy; 2022 .:|:. Wesley Verhoef .:|:. Flo-Rida</p>
+      <script>
+        var date = document.lastModified;
+        document.write("Last Updated: " + date);
+      </script>
+      <div class="social">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img class="face"
+            src="https://cdn.glitch.me/ca48489a-9c2d-4090-ae39-620c64fe4af8%2Ffacebook.png?v=1633655188092"
+            alt="Facebook icon" /></a>
+        <a href="https://www.youtube.com/" target="_blank">
+          <img class="you"
+            src="https://cdn.glitch.me/ca48489a-9c2d-4090-ae39-620c64fe4af8%2Fyoutube.png?v=1633657989031"
+            alt="YouTube icon" /></a>
 
-      <a href="https://www.instagram.com/" target="_blank">
-        <img
-          class="insta"
-          src="https://cdn.glitch.me/ca48489a-9c2d-4090-ae39-620c64fe4af8%2Finstagram.png?v=1633655197260"
-          alt="Instagram icon"/></a>
-    </div>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img class="insta"
+            src="https://cdn.glitch.me/ca48489a-9c2d-4090-ae39-620c64fe4af8%2Finstagram.png?v=1633655197260"
+            alt="Instagram icon" /></a>
+      </div>
   </footer>
 </body>
 

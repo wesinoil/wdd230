@@ -50,6 +50,7 @@
   max-width: 6rem;
 }
 
+
 .hero_content { position: relative;}
 h1, h2, p {margin: 0;}
 
@@ -85,8 +86,7 @@ img {
   height: auto;
 }
 header {
-  
-  color: white;
+  color: #d03e35;
   font-family: 'Varela Round', sans-serif;
   border-radius: 5px;
   text-align: center;
