@@ -18,7 +18,8 @@
   <link rel="stylesheet" href="css/small.css" />
   <link rel="stylesheet" href="css/medium.css" />
   <link rel="stylesheet" href="css/large.css" />
-  <script src="./js/javas.js" defer></script>
+  <script src="js/javas.js" defer></script>
+  <script src="js/windchill.js" defer></script>
 
 
 </head>
@@ -28,7 +29,7 @@
 
   <header>
     <div class="topnav">
-      <img class='logo' src="images/64px-D_letter_upon_three_circles_and_a_castle.svg 64px.png"
+      <img class='logo' src="images/castle logo webp format.webp"
         alt="logo obtained from © Sémhur">
       <h1>Reedy Creek Chamber of Commerce</h1>
 
@@ -54,49 +55,63 @@
   <br><br>
   <main>
     <div class="hero_content" role="main">
-      <img src="./images/ReedyCreekFD-Disney.webp" alt="Reedy creek fire station image">
-      <section class="welcome_heading">
+      <picture>
+        <source media="(max-width: 400px)" srcset="images/smallwriting.png">
+        <source media="(max-width: 600px)" srcset="images/mediumwriting.png">
+        <source media="(max-width: 900px)" srcset="images/largewriting2.png">
+        <img src="images/wdd230-org.jpg" alt="Reedy creek fire station image">
+      </picture>
+        <section class="welcome_heading">
         <h1>Welcome to Reedy Creek!</h1>
       </section>
     </div>
 
     <div class="event_content" role="main">
       <h1 style="text-align:center;">Events</h1>
-      <img src="./images/coming soon.jpg" alt="coming soon image">
+      <img src="images/coming soon.jpg" alt="coming soon image">
     </div>
 
     <div class="weather_content" role="main">
       <h1 style="text-align:center;">Weather</h1>
-      <img src="./images/weather pic.jpg" alt="weather status image">
+      <p>Today's Weather
+        <ul> 
+           <li>High:<span id="temp"> 5</span>&deg;</li>
+           <!-- <li>Low: 37&deg;</li> -->
+           <!-- <li>Chance of Precipitation: 45%</li> -->
+           <li>Wind: 15mph NW</li>
+           <li>Wind Chill: <span id="windChill"></span>&deg;</li>  
+    </ul> </p>
+    
+   
     </div>
 
     <div class="spotlight_content" role="main">
       <div>
         <h2 style="text-align:center;">Accomodations</h2>
-        <img src="./images/swan hotel image.jpeg" alt="swan hotel image">
+        <img src="images/swan hotel image.jpeg" alt="swan hotel image">
 
       </div>
       <div>
         <h2 style="text-align:center;">Museums</h2>
-        <img src="./images/orlando science center.jfif" alt="Orlando Science Museum image">
+        <img src="images/orlando science center.jfif" alt="Orlando Science Museum image">
       </div>
     </div>
 
     <div class="join_content" role="main">
       <h1 style="text-align:center;">Join Us!</h1>
-      <img src="./images/join us image.png" alt="join us image">
+      <img src="images/join us image smaller.png" alt="join us image">
     </div>
 
     <div class="news_content" role="main">
       <h1 style="text-align:center;">News</h1>
-      <img src="./images/orlando news.jfif" alt="Orlando News image">
+      <img src="images/orlando news.jfif" alt="Orlando News image">
     </div>
   </main>
 
   <br><br>
   <footer class="footer-section">
     <div class="footnav">
-      <img class='logo' src="images/64px-D_letter_upon_three_circles_and_a_castle.svg 64px.png"
+      <img class='logo' src="images/castle logo webp format.webp"
         alt="logo obtained from © Sémhur">
       <p>&copy; 2022 .:|:. Wesley Verhoef .:|:. Flo-Rida</p>
       <script>

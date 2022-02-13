@@ -25,7 +25,7 @@
   padding: 1em;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   
 }
 
@@ -44,10 +44,12 @@
 
 .logo {
   max-width: 4rem;
+  float: left;
 }
 
 .logo_pic {
   max-width: 6rem;
+  float: left;
 }
 
 
@@ -56,8 +58,8 @@ h1, h2, p {margin: 0;}
 
 .welcome_heading {
 	position: absolute;
-	top: 25px;
-	right: 50px;
+	bottom: 25px;
+	left: 50px;
 	background: radial-gradient(#eee, #4567aa);
 	border: 1px solid #000;
 	padding: 1.5 rem;
@@ -93,12 +95,12 @@ header {
 }
 main div {
   
-  border: 5px solid #d03e35;
-  padding: 20px;
-  border-radius: 20px;
+  border: 3px solid #d03e35;
+  padding: 10px;
+  border-radius: 10px;
   background: #f2e1d2;
   text-align: left;
-  margin: 1rem;
+  margin: .5rem;
     }
 
 .footer-section {
