@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="/Dfavicon.ico">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="/lesson7/css/small.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/large.css" />
+  <script src="js/javas.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="topnav">
+      <img class='logo' src="images/castle logo webp format.webp" alt="logo obtained from © Sémhur">
+      <h1>Reedy Creek Chamber of Commerce</h1>
+
+
+      <nav>
+        <ul class="navigation">
+          <li><a class="ham" href="#">Menu</a></li>
+          <li><a class="active" href="../index.html">Home</a></li>
+          <li><a class="active" href="index.html">Main</a></li>
+          <li><a class="active" href="/lesson7/discover.html">Discover</a></li>
+          <li><a class="active" href="color_scheme.html">Join</a></li>
+          <li><a class="active" href="typography.html">About Us</a></li>
+      </nav>
+    </div>
+    <p><span id="date"></span></p>
+
+    <script>
+      var dt = new Date();
+      document.getElementById("date").innerHTML = dt.toLocaleString();
+    </script>
+    <h1>Wes Verhoef</h1>
+
+    <h3>WDD 230 - Lazy Loading site</h3>
+
+
+  </header>
+  <!-- <main>
+    <div class="event_content" role="main">
+      <h1 style="text-align:center;">Walt Disney and Mickey Mouse statue in front of Cinderella's Castle</h1>
+      <img src='/lesson7/images/castle logo webp format.webp' data-src='data/img/SLUG.jpg' alt='Mickey and Walt statue'>
+
+    </div>
+
+    <div class="event_content" role="main">
+      <h1 style="text-align:center;">Cinderella's Castle at Dusk</h1>
+      <img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>
+      <img src="images/dark dusk castle.jpg" alt="Reedy creek fire station image">
+    </div>
+    <div class="event_content" role="main">
+      <h1 style="text-align:center;">Statue of Cinderella at her Castle</h1>
+      <img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>
+      <img src="images/castle with cinderella statue.jpg" alt="Reedy creek fire station image">
+    </div>
+    <div class="event_content" role="main">
+      <h1 style="text-align:center;">Cinderella's Castle at the end of Main Street</h1>
+      <img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>
+      <img src="images/castle down main street.jpg" alt="Reedy creek fire station image">
+    </div>
+    <div class="event_content" role="main">
+      <h1 style="text-align:center;">Evening picture of Walt and Mickey in front of the Castle</h1>
+      <img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>
+      <img src="images/castle at dusk.jpg" alt="Reedy creek fire station image">
+    </div>
+    <div class="event_content" role="main">
+      <h1 style="text-align:center;">Arial view of Cinderella's Castle</h1>
+      <img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>
+      <img src="images/castle at birds eye view.jpg" alt="Reedy creek fire station image">
+    </div>
+
+
+  </main> -->
+
+  <section class="container">
+    <ul class="list">
+      <li class="list-item">
+        <article class="img-container">
+          <img class="img lazy-load" data-src="lesson7\images\walt and mickey.jpg" />
+        </article>
+      </li>
+      <li class="list-item">
+        <article class="img-container">
+          <img class="img lazy-load" data-src="lesson7\images\dark dusk castle.jpg" />
+        </article>
+      </li>
+      <li class="list-item">
+        <article class="img-container">
+          <img class="img lazy-load" data-src="lesson7\images\castle with cinderella statue.jpg" />
+        </article>
+      </li>
+       <li class="list-item">
+        <article class="img-container">
+          <img class="img lazy-load" data-src="lesson7\images\castle down main street.jpg" />
+        </article>
+      </li>
+       <li class="list-item">
+        <article class="img-container">
+          <img class="img lazy-load" data-src="lesson7\images\castle at birds eye view.jpg" />
+        </article>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="footer-section">
+    <p>&copy; 2022 .:|:. Wesley Verhoef .:|:. Flo-Rida</p>
+    <script>
+      var date = document.lastModified;
+      document.write("Last Updated: " + date);
+    </script>
+  </footer>
+</body>
+
+</html>
