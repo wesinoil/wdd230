@@ -20,6 +20,8 @@
   padding: 1em;
   border: 5px solid #2f2f30;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .topnav a {
@@ -37,10 +39,12 @@
 
 .logo {
   max-width: 4rem;
+  float: left;
 }
 
 .logo_pic {
   max-width: 6rem;
+  float: left;
 }
 
 div {
@@ -106,7 +110,12 @@ header {
   text-align: center;
   border-radius: 25px;
   font-family: 'Arvo', serif;
-}
+  color: #f49807;
+  font-size: 15px;
+  color: #f49807;
+  -webkit-text-stroke: 0.5px white;
+  text-shadow: 2px 0px 0px rgba(0, 0, 0, 1);
+  }
 
 .container {
   margin: 0 auto;
@@ -121,7 +130,7 @@ header {
   background-color:  #ccc;
   width: 100%;
   position: relative;
-  padding-bottom: 80%;
+  padding-top: 80%;
   margin-bottom: 1rem;
 }
 .img-container img {
@@ -130,4 +139,70 @@ header {
   left: 0;
   width: 100%;
   
+}
+nav {
+  margin: 0 auto;
+  max-width: 760px;
+  
+}
+.navigation {
+  list-style: none;
+  padding: 0;
+}
+.navigation li:first-child {
+  display: block;
+}
+.navigation li {
+  display: none;
+}
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  transition: 0.5s;
+  font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a.ham::before {
+  content: "🍔 ";
+}
+
+.navigation a:hover {
+  color: white;
+  background-color: black;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+  display: block;
+}
+
+.responsive a.ham::before {
+  content: "❌ ";
+}
+.ham {
+  display: block;
+}
+.social {
+  float: right;
+  }
+.face {
+  max-height: 40px;
+  max-width: 40px;
+  border: none;
+}
+.you {
+  max-height: 40px;
+  max-width: 40px;
+  border: none;
+}
+.insta {
+  max-height: 40px;
+  max-width: 40px;
+  border: none;
 }
