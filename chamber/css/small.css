@@ -21,14 +21,6 @@
   display: flex;
   align-items: center;
 }
-.footnav {
-  padding: 1em;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  
-}
-
 .topnav a {
   color: #d03e35;
   text-align: center;
@@ -181,3 +173,9 @@ nav {
   max-width: 40px;
   border: none;
 }
+.footnav {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  }
