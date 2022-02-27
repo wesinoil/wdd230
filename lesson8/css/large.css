@@ -1,5 +1,15 @@
+@media only screen and (min-width: 64rem) {
 
-@media only screen and (min-width: 990px) {
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
+
+
+form label.sbs {
+    padding: .4rem 0;
+}
+
 	nav {
 	  width: 100%;
 	  clear: both;
