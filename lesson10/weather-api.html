@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=PT+Mono&family=Varela+Round&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="/Dfavicon.ico">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Lesson 3 Website Planning Document</title>
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="Wesley Verhoef" />
+  <meta property="og:type" content="article" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/large.css" />
+  <script src="js/weatherapi.js" defer></script>
+  <script src="js/windchill.js" defer></script>
+
+
+</head>
+
+
+<body>
+
+  <header>
+    <div class="topnav">
+      <img class='logo' src="images/castle logo webp format.webp"
+        alt="logo obtained from © Sémhur">
+      <h1>Reedy Creek Chamber of Commerce</h1>
+
+
+      <nav>
+        <ul class="navigation">
+          <li><a class="ham" href="#">Menu</a></li>
+          <li><a class="active" href="../index.html">Home</a></li>
+          <li><a class="active" href="index.html">Main</a></li>
+          <li><a class="active" href="/lesson7/index.html">Discover</a></li>
+          <li><a class="active" href="/lesson8/join.html">Join Us</a></li>
+          <li><a class="active" href="typography.html">About Us</a></li>
+      </nav>
+    </div>
+    <p><span id="date"></span></p>
+
+    <script>
+      var dt = new Date();
+      document.getElementById("date").innerHTML = dt.toLocaleString();
+    </script>
+
+  </header>
+  
+  <h1>Orlando Weather</h1>
+<p>The current temperature in Orlando, Florida is <span id="current-temp"></span> &deg;F</p>
+<p>The current conditions icon path is "<span id="icon-src"></span>"</p><figure><img src="" alt="" id="weathericon" />  <figcaption></figcaption></figure>
+
+
+
+
+  <br><br>
+  <footer class="footer-section">
+    <div class="footnav">
+      <img class='logo' src="images/castle logo webp format.webp"
+        alt="logo obtained from © Sémhur">
+      <p>&copy; 2022 .:|:. Wesley Verhoef .:|:. Flo-Rida</p>
+      <script>
+        var date = document.lastModified;
+        document.write("Last Updated: " + date);
+      </script>
+      <div class="social">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img class="face"
+            src="https://cdn.glitch.me/ca48489a-9c2d-4090-ae39-620c64fe4af8%2Ffacebook.png?v=1633655188092"
+            alt="Facebook icon" /></a>
+        <a href="https://www.youtube.com/" target="_blank">
+          <img class="you"
+            src="https://cdn.glitch.me/ca48489a-9c2d-4090-ae39-620c64fe4af8%2Fyoutube.png?v=1633657989031"
+            alt="YouTube icon" /></a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+          <img class="insta"
+            src="https://cdn.glitch.me/ca48489a-9c2d-4090-ae39-620c64fe4af8%2Finstagram.png?v=1633655197260"
+            alt="Instagram icon" /></a>
+      </div>
+  </footer>
+</body>
+
+</html>
