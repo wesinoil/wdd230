@@ -63,11 +63,14 @@ body {
   background: white;
   }
 
-h1, h2, h3 {
+h1, h3 {
   color: #d03e35;
   font-family: 'Varela Round', sans-serif;
 }
-
+h2 {
+  color: #d03e35;
+  font-size: 1rem;
+}
 
 main {
   display: flex;
@@ -80,6 +83,7 @@ img {
   height: auto;
 }
 header {
+  padding: 20px;
   color: #d03e35;
   font-family: 'Varela Round', sans-serif;
   border-radius: 5px;
