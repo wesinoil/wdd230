@@ -5,8 +5,14 @@ const cityid = "524901";
 const apiURL = `http://api.openweathermap.org/data/2.5/forecast?id=${cityid}&appid=${apikey}`;
 fetch(apiURL)
     .then((response) => response.json())
+        if (response.ok) {
+            console.log('Success')
+        } else {
+            console.log("Not Successful")
+        }
     .then((jsObject) => {
-        console.log(jsObject);
+        console.log(jsObject)
+        .catch(error => console.log ('ERROR'));
 
         const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
 const desc = jsObject.weather[0].description;
