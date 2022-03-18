@@ -57,10 +57,35 @@ div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.cards section h2 {
-  
+
+
+.caption {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  border: 1px solid #ccc;
+  background-color: lightyellow;
+  padding: 0.25rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1rem 1fr;
 }
 
+.caption h6 {
+  position: absolute;
+  top: -2.3rem;
+  left: -0.25rem;
+}
+
+.caption > div {
+  width: 0.75rem;
+  height: 0.75rem;
+  border: 1px solid #bbb;
+}
+
+.caption > p {
+  font-size: 0.75rem;
+}
 h1,
 h3 {
   font-size: 1.5rem;
