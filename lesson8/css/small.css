@@ -53,8 +53,13 @@ div {
   text-align: left;
   margin: 1rem;
 }
-
-
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.cards section h2 {
+  
+}
 
 h1,
 h3 {

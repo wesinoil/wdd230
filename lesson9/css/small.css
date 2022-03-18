@@ -21,6 +21,8 @@ footer {
   border-radius: 10px;
   display: flex;
   align-items: center;
+}
+
   .topnav a:hover {
     background: #d03e35;
     color: black;
