@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="../Dfavicon.ico">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="./../lesson9/css/small.css" />
+  <link rel="stylesheet" href="./css/medium.css" />
+  <link rel="stylesheet" href="./css/large.css" />
+  
+  <script src="js/hamburgerjava.js" defer></script>
+  <script src="./../lesson9/js/javas.js" defer></script>
+  <script src="./../lesson9/js/prophets.js" defer></script>
+  
+
+</head>
+
+<body>
+  <header>
+    <div class="topnav">
+      <img class='logo' src="images/castle logo webp format.webp" alt="logo obtained from © Sémhur">
+      <h1 class="navtitle">Reedy Creek Chamber of Commerce</h1>
+
+
+      <nav>
+        <ul class="navigation">
+          <li><a class="ham" href="#">Menu</a></li>
+
+          <li><a class="active" href="./../chamber/index.html">Home</a></li>
+          <li>
+            <a class="active" href="./../lesson7/index.html">Discover</a>
+          </li>
+          <li>
+            <a class="active" href="./../lesson9/index.html">Directory</a>
+          </li>
+          <li><a class="active" href="./../lesson8/join.html">Join</a></li>
+          <li><a class="active" href="./../lesson11/contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p><span id="date"></span></p>
+
+    <script>
+      var dt = new Date();
+      document.getElementById("date").innerHTML = dt.toLocaleString();
+    </script>
+    <h1>Reedy Creek Directory of Members</h1>
+
+    <main>
+      <div class="cards"></div>
+    </main>
+
+
+
+  <footer class="footer-section">
+    <p>&copy; 2022 .:|:. Wesley Verhoef .:|:. Flo-Rida</p>
+    <script>
+      var date = document.lastModified;
+      document.write("Last Updated: " + date);
+    </script>
+  </footer>
+</body>
+
+</html>
