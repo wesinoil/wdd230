@@ -4,18 +4,27 @@ body {
   font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
-header,
+
 main,
 footer {
   margin: 1rem;
   position: relative;
 }
 
+header {
+  padding: 20px;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
 h1,
 h3 {
   font-size: 1.5rem;
   color: #d03e35;
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
 }
 
 .topnav a:hover {
@@ -48,13 +57,12 @@ h3 {
   padding: 14px 16px;
   font-weight: bold;
   font-size: 1rem;
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
 }
 
 nav {
   margin: 0 auto;
   max-width: 760px;
-  
 }
 .navigation {
   list-style: none;
@@ -127,16 +135,16 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 .cards section img {
-    width: auto;
-    max-width: 325px;
-    box-shadow: 0 0 30px #333;
-    height: 200px;
-    border: 1px solid #333;
-  }
+  width: auto;
+  max-width: 325px;
+  box-shadow: 0 0 30px #333;
+  height: 200px;
+  border: 1px solid #333;
+}
 
-  .logo {
-    max-width: 4rem;
-    float: left;
+.logo {
+  max-width: 4rem;
+  float: left;
 }
 section {
   margin: 0.25rem;

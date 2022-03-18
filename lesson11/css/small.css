@@ -84,9 +84,11 @@ img {
 }
 header {
   padding: 20px;
-  color: #d03e35;
-  font-family: 'Varela Round', sans-serif;
+  color: white;
+  font-family: "Varela Round", sans-serif;
   border-radius: 5px;
+  width: auto;
+  height: auto;
   text-align: center;
 }
 main div {
