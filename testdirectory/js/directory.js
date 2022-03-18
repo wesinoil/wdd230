@@ -21,9 +21,9 @@ fetch(requestURL)
       h2.textContent = `${members.name}  ${members.lastname}`;
     
       // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-      portrait.setAttribute('src', members.imageurl);
-      portrait.setAttribute('alt', 'Portait of ' + members.name + ' ' + members.lastname);
-      portrait.setAttribute('loading', 'lazy');
+      // portrait.setAttribute('src', members.imageurl);
+      // portrait.setAttribute('alt', 'Portait of ' + members.name + ' ' + members.lastname);
+      // portrait.setAttribute('loading', 'lazy');
     
       // Add/append the section(card) with the h2 element
       card.appendChild(h2);
