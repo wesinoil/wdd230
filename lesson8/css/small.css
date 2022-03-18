@@ -143,10 +143,7 @@ nav {
   max-width: 760px;
   
 }
-.navigation {
-  list-style: none;
-  padding: 0;
-}
+
 .navigation li:first-child {
   display: block;
 }

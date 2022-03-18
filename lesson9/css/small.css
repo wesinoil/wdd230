@@ -12,13 +12,47 @@ footer {
 }
 
 
-h1 {
-  color: #000;
-  border-bottom: 1px solid #eee;
-  text-shadow: 0 0 15px #999;
-  width: 60%;
-  text-align: center;
-}
+
+
+.topnav {
+  background: #2f2f30;
+  padding: 1em;
+  border: 5px solid #2f2f30;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  .topnav a:hover {
+    background: #d03e35;
+    color: black;
+  }
+  
+  .topnav a.active {
+    color: #f49807;
+  }
+  .topnav a:visited {
+    color: #f49807;
+  }
+  
+  .topnav a:link {
+    color: #f49807;
+  }
+  .topnav {
+    background: #2f2f30;
+    padding: 1em;
+    border: 5px solid #2f2f30;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .topnav a {
+    color: #d03e35;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Varela Round', sans-serif;
+  }
 
 h2 {
   color: blue;
