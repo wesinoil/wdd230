@@ -19,7 +19,8 @@
   <link rel="stylesheet" href="css/medium.css" />
   <link rel="stylesheet" href="css/large.css" />
   <script src="js/javas.js" defer></script>
-  <script src="js/windchill.js" defer></script>
+  <!-- <script src="js/windchill.js" defer></script> -->
+  <script src="js/weather.js" defer></script>
 
 
 </head>
@@ -82,11 +83,19 @@
       <h1 style="text-align:center;">Weather</h1>
       <p>Today's Weather
         <ul> 
-           <li>High:<span id="temp"> 5</span>&deg;</li>
+
+          <li>Current Conditions: <span id="description"></span></li>
+          <li>Current Temperature: <span id="temp"></span></li>
+          <li>Today's High temp: <span id="temp_max"></span></li>
+          <li>Today's Low temp: <span id="temp_min"></span></li>
+          
+          <li id=""> </li>
+          <li id=""> </li>
+           <!-- <li>High:<span id="temp"> 5</span>&deg;</li> -->
            <!-- <li>Low: 37&deg;</li> -->
            <!-- <li>Chance of Precipitation: 45%</li> -->
-           <li>Wind: 15mph NW</li>
-           <li>Wind Chill: <span id="windChill"></span>&deg;</li>  
+           <!-- <li>Wind: 15mph NW</li>
+           <li>Wind Chill: <span id="windChill"></span>&deg;</li>   -->
            <!-- http://api.openweathermap.org/data/2.5/forecast?id=524901&appid={1e92c2f0f176d6aa961e863c91cfffdd} -->
     </ul> </p>
     
