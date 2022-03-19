@@ -11,11 +11,11 @@
 	.navigation {
 		display: flex;
 	}
-	main {
+	/* main {
 		display: block;
 		grid-template-columns: 1fr 1fr 1fr;
 	    grid-column: 1/4;
-	}
+	} */
 	.navigation li {
 		display: block; /* change state in small view */
 		flex: 1 1 auto;
