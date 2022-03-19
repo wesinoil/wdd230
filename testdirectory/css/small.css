@@ -44,6 +44,10 @@
   float: left;
 }
 
+.img-lazy-load, .img-container {
+  width: 50%;
+  height: auto;
+}
 
 .hero_content { position: relative;}
 h1, h2, p {margin: 0;}
