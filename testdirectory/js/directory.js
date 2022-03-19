@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/wesinoil/wdd230/testdirectory/data/data.json';
+const requestURL = 'https://github.com/wesinoil/wdd230/testdirectory/data/fldata.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
