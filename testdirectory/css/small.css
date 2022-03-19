@@ -285,7 +285,15 @@ form input.submitBtn {
         border-left: green solid 6px;
     }
 
-
+    section {
+      margin: 0.25rem;
+      padding: 0.35rem;
+      background-color: #f49807;
+      border: 2px solid #975840;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
 
 
 
