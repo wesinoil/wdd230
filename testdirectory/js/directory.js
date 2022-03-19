@@ -1,6 +1,6 @@
 const requestURL =
   "https://wesinoil.github.io/wdd230/testdirectory/data/fldata.json";
-const cards = document.querySelector(".cards");
+const card = document.querySelector(".card");
 
 fetch(requestURL)
   .then(function (response) {
@@ -28,6 +28,8 @@ fetch(requestURL)
 
       // Add/append the section(card) with the h2 element
       card.appendChild(h2);
+      card.appendChild(address);
+      card.appendChild(phone);
       // card.appendChild(portrait);
 
       // Add/append the existing HTML div with the cards class with the section(card)
