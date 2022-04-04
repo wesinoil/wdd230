@@ -1,0 +1,41 @@
+/* Media Query for medium+ views */
+/*@media only screen and (min-width: 32.5em) {
+	*/
+	/* main {
+		display: flex;
+		grid-template-columns: 1fr 1fr 1fr;
+	    grid-column: 1/4;
+	} */
+/* }  */
+@media only screen and (min-width: 700px) {
+	.navigation {
+		display: flex;
+	}
+	/* main {
+		display: block;
+		grid-template-columns: 1fr 1fr 1fr;
+	    grid-column: 1/4;
+	} */
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	
+}
+
+.card {
+	display: foex;
+	grid-template-columns: 1fr 1fr;
+	margin: 0 auto;
+}
+
+dir.div.card div.list section {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+}
