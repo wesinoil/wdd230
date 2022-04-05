@@ -208,6 +208,10 @@ nav {
   text-align: left;
 }
 
+.receptiontext {
+  max-width: 50em;
+}
+
   /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
