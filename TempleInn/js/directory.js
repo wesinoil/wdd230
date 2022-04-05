@@ -1,5 +1,6 @@
 const requestURL = 
-"https://wesinoil.github.io/wdd230/Templeinn/data/templedata.json";
+"data/templedata.json";
+
 const card = document.querySelector(".card");
 
 fetch(requestURL)
