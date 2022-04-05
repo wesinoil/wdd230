@@ -283,7 +283,7 @@ form label.sbs {
 
 form input.submitBtn {
     border: none;
-    background-color: #94bcfa;
+    background-color: #6f9490 ;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -300,6 +300,7 @@ form input.submitBtn {
         border-left: green solid 6px;
     }
 
+ 
     section {
       margin: 0.25rem;
       padding: 0.35rem;
