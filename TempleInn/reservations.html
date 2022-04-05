@@ -53,35 +53,44 @@
 <body>
 
   <main class="joinmain">
-    <h1>Temple Inn & Suites reservation request</h1>
+    <h1>Temple Inn & Suites Reservation Request</h1>
     <form method="get" action="thankyou.html">
       <h1>Stay With Us</h1>
       <fieldset>
-        <legend>Applicant Information</legend>
+        <legend>Information</legend>
         <label class="top">First Name* <input type="text" name="fname" required></label>
         <label class="top">Last Name* <input type="text" name="lname" required></label>
-        <label class="top">Cell Phon* <input type="tel" name="phone" placeholder="1235551234" required></label>
+        <label class="top">Cell Phon* <input type="tel" name="phone" placeholder="123-555-1234" required></label>
         <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-        <label class="top">Business Position <input type="text" name="buspos"></label>
-        <label class="top">Business Name* <input type="text" name="busname" required></label>
-
+        <label class="top">Requested Start Date<input type="date" name="reqdatestart" required></label>
+        <label class="top">Requested End Date <input type="date" name="reqdateend" required></label>
+        
+        <br>
+        
+        <label class="room">Room Types <select name="room types" id="room">
+            <option value="1 King Bed">
+              <option value="2 Queen Beds">
+              <option value="2 Room Suite">
+              <option value="2 Double Beds">
+          </select>
+          </label>
+       
       </fieldset>
 
       <fieldset>
-        <legend>Membership Level</legend>
+        <legend>Temple Locations</legend>
 
-        <label class="sbs"><input type="radio" name="memblevel" value="beinner"> NP Membership is for non profit
-          organizations and there is no fee.</label>
-        <label class="sbs"><input type="radio" name="memblevel" value="intermediate"> Bronze Membership</label>
-        <label class="sbs"><input type="radio" name="memblevel" value="silver"> Silver Membership</label>
-        <label class="sbs"><input type="radio" name="memblevel" value="gold"> Gold Membership</label>
-        <label class="top">Business description <input type="text" name="busdesc"></label>
+        <label class="sbs"><input type="radio" name="tempchoice" value="fl"> Orlando, FL</label>
+        <label class="sbs"><input type="radio" name="tempchoice" value="id"> Rexburg, ID</label>
+        <label class="sbs"><input type="radio" name="tempchoice" value="az"> Mesa, AZ</label>
+        <label class="sbs"><input type="radio" name="tempchoice" value="ny"> New York, NY</label>
+        <label class="top">Special Accomodations <input type="text" name="specaccomo"></label>
 
       </fieldset>
 
 
 
-      <input type="submit" value="Add My Membership" class="submitBtn">
+      <input type="submit" value="Submit Request" class="submitBtn">
     </form>
 
 
