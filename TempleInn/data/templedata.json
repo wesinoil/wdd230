@@ -1,0 +1,26 @@
+{
+"temples": [
+{
+    "name": "Orlando, FL",
+    "address": "1010 Greenwood Blvd, Lake Mary FL",
+    "phone": 6896662291
+},
+{
+    "name": "Rexburg, ID",
+    "address": "78 3rd Street, Winter Garden FL",
+    "phone": 4079861000
+},
+{
+    "name": "Mesa, AZ",
+    "address": "12270 W. Colonial Dr, Winter Garden FL",
+    "phone": 4076567606
+},
+{
+    "name": "New York, NY",
+    "address": "9608 Maywood Dr, Windermere FL",
+    "phone": 4078100839
+}
+
+
+]
+}

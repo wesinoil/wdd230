@@ -197,6 +197,17 @@ nav {
   justify-content: space-evenly;
   }
 
+.fulltime, .reception {
+  display: flex;
+  align-content: center;
+  color: white;
+  text-align: center;
+}
+
+.receptionlist {
+  text-align: left;
+}
+
   /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
