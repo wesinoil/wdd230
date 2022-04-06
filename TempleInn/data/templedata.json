@@ -1,26 +1,45 @@
 {
-"temples": [
-{
-    "name": "Orlando, FL",
-    "address": "1010 Greenwood Blvd, Lake Mary FL",
-    "phone": 6896662291
-},
-{
-    "name": "Rexburg, ID",
-    "address": "78 3rd Street, Winter Garden FL",
-    "phone": 4079861000
-},
-{
-    "name": "Mesa, AZ",
-    "address": "12270 W. Colonial Dr, Winter Garden FL",
-    "phone": 4076567606
-},
-{
-    "name": "New York, NY",
-    "address": "9608 Maywood Dr, Windermere FL",
-    "phone": 4078100839
-}
+    "temples": [
+        {
+            "name": "Orlando, FL",
+            "address": "9000 Windy Ridge Rd, Windermere FL 34786-8347,",
+            "phone": 4078760022,
+            "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "6 April 1991 - Announced, 20 June 1992 - Groundbreaking,9 October 1994 - Dedicated — dedicatory prayer",
+            "closures": "Monday 15 August 2022 - Monday 12 December 2022, Saturday 24 December 2022, Saturday 31 December 2022",
+            "image": "https://wesinoil.github.io/wdd230/TempleInn/images/Orlando-Florida-Temple1.jpg"
+        },
+
+        {
+            "name": "Rexburg, ID",
+            "address": "750 S 2nd E, Rexburg ID 83440-5404",
+            "phone": 4079861000,
+            "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "12 December 2003 - Announced, 30 July 2005 - Groundbreaking, 10 February 2008 - Dedicated — dedicatory prayer",
+            "closures": "Monday 11 April 2022 - Monday 4 July 2022, Saturday 23 July 2022, Saturday 1 October 2022, Wednesday 23 November 2022 - Thursday 24 November 2022, Saturday 24 December 2022, Saturday 31 December 2022 ",
+            "image": "https://wesinoil.github.io/wdd230/TempleInn/images/rexburg-idaho-temple-1057-main.jpg"
+
+        },
+
+        {
+            "name": "Mesa, AZ",
+            "address": "101 S LeSueur, Mesa AZ 85204-1031",
+            "phone": 4808331211,
+            "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "1 October 1919 - Announced, 25 April 1922 - Groundbreaking, 23 October 1927 - Dedicated — dedicatory prayer, 15 April 1975 - Rededicated — dedicatory prayer, 12 December 2021 - Rededicated — dedicatory prayer",
+            "closures": "Tuesday 5 April 2022 - Saturday 16 April 2022 (Limited Operations), Monday 18 July 2022 - Monday 1 August 2022, Saturday 1 October 2022, Wednesday 23 November 2022 (Limited Operations), Thursday 24 November 2022, Saturday, 24 December 2022",
+            "image": "https://wesinoil.github.io/wdd230/TempleInn/images/Mesa_temple.png"
+        },
+        {
+            "name": "New York, NY",
+            "address": "125 Columbus Ave, Fourth Floor, New York NY 10023-6514",
+            "phone": 9174418220,
+            "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "7 August 2002 - Announced, 23 September 2002 - Groundbreaking, 13 June 2004 - Dedicated — dedicatory prayer",
+            "closures": "Monday 4 July 2022, Monday 25 July 2022 - Monday 8 August 2022, Saturday 1 October 2022 - Sunday 2 October 2022, Thursday 24 November 2022 - Friday 25 November 2022, Saturday 24 December 2022",
+            "image": "https://wesinoil.github.io/wdd230/TempleInn/images/Manhattan-LDS-Mormon-Temple.jpg"
+        }
 
 
-]
+    ]
 }

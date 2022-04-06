@@ -5,7 +5,8 @@
 
 .topnav a.active {
   color: #d3443b;
-  }
+}
+
 .topnav a:visited {
   color: #d3443b;
 }
@@ -13,6 +14,7 @@
 .topnav a:link {
   color: #d3443b;
 }
+
 .topnav {
   background: #7485a4;
   padding: 1em;
@@ -20,6 +22,7 @@
   display: flex;
   align-items: center;
 }
+
 .topnav a {
   color: #2f3134;
   text-align: center;
@@ -43,34 +46,56 @@
   float: left;
 }
 
-.img-lazy-load, .img-container {
+.img-lazy-load,
+.img-container {
   width: 50%;
   height: auto;
 }
 
-.hero_content { position: relative;}
-h1, h2, p {margin: 0;}
+.hero_one {
+  position: relative;
+}
+
+.hero_two {
+  position: relative;
+}
+
+.hero_three {
+  position: relative;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
 
 .welcome_heading {
-	position: absolute;
-	bottom: 25px;
-	left: 50px;
-	background: radial-gradient(#eee, #4567aa);
-	border: 1px solid #000;
-	padding: 1.5 rem;
-	box-shadow: 0 0 30px #333;
-	opacity: .9;
+  bottom: 25px;
+  left: 50px;
+  background: radial-gradient(#eee, #4567aa);
+  border: 1px solid #000;
+  padding: 1.5 rem;
+  box-shadow: 0 0 30px #333;
+  opacity: .9;
 }
-  
-body {
-  background: white;
-  }
 
-h1, h3 {
+
+body {
+    /* background-color: white; */
+    background-attachment: fixed;
+    background-image: url("../images/Orlando-Florida-Temple1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100em;
+}
+
+h1,
+h3 {
   color: #2f3134;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
 }
+
 h2 {
   color: #2f3134;
   font-size: 2rem;
@@ -80,9 +105,10 @@ main {
   display: grid;
   flex-direction: column;
   row-gap: 2rem;
-  }
-  
-.joinmain, .contactmain {
+}
+
+.joinmain,
+.contactmain {
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
@@ -96,21 +122,27 @@ img {
   width: 100%;
   height: auto;
 }
+
 header {
   padding: 20px;
   color: white;
-font-family: 'Quicksand', sans-serif;
-    width: auto;
+  font-family: 'Quicksand', sans-serif;
+  width: auto;
   height: auto;
   text-align: center;
 }
+
+.whiteback {
+background-image: none;
+}
+
 main div {
   border: 3px solid #2f3134;
   padding: 10px;
   background: #6f9490;
   text-align: left;
   margin: .5rem;
-    }
+}
 
 .footer-section {
   background: #7485a4;
@@ -122,23 +154,27 @@ main div {
   color: #d3443b;
   -webkit-text-stroke: 0.5px white;
   text-shadow: 2px 0px 0px rgba(0, 0, 0, 1);
-  }
+}
 
 nav {
   margin: 0 auto;
   max-width: 760px;
-  
+
 }
+
 .navigation {
   list-style: none;
   padding: 0;
 }
+
 .navigation li:first-child {
   display: block;
 }
+
 .navigation li {
   display: none;
 }
+
 .navigation a {
   display: block;
   padding: 0.75rem;
@@ -169,35 +205,43 @@ nav {
 .responsive a.ham::before {
   content: "❌ ";
 }
+
 .ham {
   display: block;
 }
+
 .social {
   float: right;
-  }
+}
+
 .face {
   max-height: 40px;
   max-width: 40px;
   border: none;
 }
+
 .you {
   max-height: 40px;
   max-width: 40px;
   border: none;
 }
+
 .insta {
   max-height: 40px;
   max-width: 40px;
   border: none;
 }
+
 .footnav {
   padding: 1em;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  }
+}
 
-.fulltime, .reception {
+.fulltime,
+.reception,
+.amenities {
   display: flex;
   align-content: center;
   color: white;
@@ -212,108 +256,123 @@ nav {
   max-width: 50em;
 }
 
-  /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
 
 /*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 
 /*----------- BODY --------------*/
 body {
-    font-size: 16px;
-    font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 
 /*----------- HEADER --------------*/
 header {
-    padding: .5rem 2%;
-    background-color: white;
+  padding: .5rem 2%;
+  background-color: white;
 }
-header h1 {margin: 0;}
-header h2 {margin: 0; font-weight: normal;}
+
+header h1 {
+  margin: 0;
+}
+
+header h2 {
+  margin: 0;
+  font-weight: normal;
+}
 
 
------------ MAIN --------------
-main {
-    padding: 0 2%;
-    min-height: 20rem;
+----------- MAIN -------------- main {
+  padding: 0 2%;
+  min-height: 20rem;
 }
 
 /*----------- FORM --------------*/
 form fieldset {
-    margin: 2rem 0;
-    border: 1px solid #445ba9;
-    border-radius: 10px;
-    padding: .5rem 2%;
+  margin: 2rem 0;
+  border: 1px solid #445ba9;
+  border-radius: 10px;
+  padding: .5rem 2%;
 }
 
 form legend {
-color: #445ba9;
-margin: 0 1rem;
-padding: 0 .5rem;
+  color: #445ba9;
+  margin: 0 1rem;
+  padding: 0 .5rem;
 }
 
-form label.top, form div {
-display: block;
-padding-top: 1rem;
-color: #94bcfa;
-font-size: .8rem;
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #94bcfa;
+  font-size: .8rem;
 }
 
-form label.top input, form label.top select {
-    -webkit-appearance: none;
-    display: block;
-    font-size: 2rem;
-    border: solid 1px #999;
-    border-radius: 4px;
-    padding: .75rem;
-    color: #555;
-    width: 100%;
-    max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
+form label.top input,
+form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 2rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 form label.sbs {
-    display: block;
-    padding: .75rem;
-    color: #555;
-    }
+  display: block;
+  padding: .75rem;
+  color: #555;
+}
 
 form input.submitBtn {
-    border: none;
-    background-color: #6f9490 ;
-    color: white;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
-    }
+  border: none;
+  background-color: #6f9490;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
 
-    form label.top input:required {
-        border-left: 94bcfa solid 6px;
-    }
+form label.top input:required {
+  border-left: 94bcfa solid 6px;
+}
 
-    form label.top input:required:valid {
-        border-left: green solid 6px;
-    }
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
 
- 
-    section {
-      margin: 0.25rem;
-      padding: 0.35rem;
-      background-color: #6f9490;
-      border: 2px solid #7485a4;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-       }
 
-    section h2 {
-      color: black;
-    }
+section {
+  margin: 0.25rem;
+  padding: 0.35rem;
+  background-color: #6f9490;
+  border: 2px solid #7485a4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section h2 {
+  color: black;
+}
 
 
 
