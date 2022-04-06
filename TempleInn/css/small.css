@@ -183,7 +183,7 @@ nav {
   color: black;
   font-weight: 700;
   transition: 0.5s;
-  font-size: clamp(1.5rem, 2vmin, 2rem);
+  font-size: 1em;
 }
 
 .navigation a.ham::before {
