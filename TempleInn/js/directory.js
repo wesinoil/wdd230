@@ -17,7 +17,7 @@ fetch(requestURL)
       let h2 = document.createElement("h2");
       let address = document.createElement("address");
       let phone = document.createElement("phone");
-      let image = document.createElement("image");
+      let image = document.createElement("img");
 
       // Change the textContent property of the h2 element to contain the temple name
       h2.textContent = `${temples.name}`;
