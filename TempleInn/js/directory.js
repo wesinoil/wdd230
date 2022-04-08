@@ -31,7 +31,8 @@ fetch(requestURL)
       history.textContent = `${temples.history}`;
       services.textContent = `${temples.services}`;
       // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-      // portrait.setAttribute('src', temples.imageurl);
+      image.setAttribute('src', temples.image);
+
       // portrait.setAttribute('alt', 'Portait of ' + temples.name);
       // portrait.setAttribute('loading', 'lazy');
       // image.setAttribute('src', temple.imageurl);
