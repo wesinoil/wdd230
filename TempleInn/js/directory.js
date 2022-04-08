@@ -17,13 +17,19 @@ fetch(requestURL)
       let h2 = document.createElement("h2");
       let address = document.createElement("address");
       let phone = document.createElement("phone");
-      let image = document.createElement("img");
+      let image = document.createElement("image");
+      let closures = document.createElement("closures");
+      let history = document.createElement("history");
+      let services = document.createElement("services");
 
       // Change the textContent property of the h2 element to contain the temple name
       h2.textContent = `${temples.name}`;
       address.textContent = `${temples.address}`;
       phone.textContent = `${temples.phone}`;
       image.textContent = `${temples.image}`;
+      closures.textContent = `${temples.closures}`;
+      history.textContent = `${temples.history}`;
+      services.textContent = `${temples.services}`;
       // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
       // portrait.setAttribute('src', temples.imageurl);
       // portrait.setAttribute('alt', 'Portait of ' + temples.name);
@@ -36,6 +42,9 @@ fetch(requestURL)
       card.appendChild(address);
       card.appendChild(phone);
       card.appendChild(image);
+      card.appendChild(closures);
+      card.appendChild(history);
+      card.appendChild(services);
       // card.appendChild(portrait);
 
       // Add/append the existing HTML div with the cards class with the section(card)
